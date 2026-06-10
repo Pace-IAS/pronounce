@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pronounce — speech model download</title>
+  <meta name="description" content="Download the on-device speech model used by the Pronounce pronunciation-practice app for Pace University's International Academic Support office." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <h1>Pronounce</h1>
+      <p class="tagline">On-device pronunciation feedback for English language learners.</p>
+    </header>
+
+    <p class="lede">
+      This page hosts the speech model used by the Pronounce desktop app, built for
+      Pace University's International Academic Support (IAS) office. The model runs
+      entirely on your device — no audio leaves your computer.
+    </p>
+
+    <section class="download" aria-labelledby="dl-heading">
+      <h2 id="dl-heading">Download the model</h2>
+      <a class="dl-button"
+         href="https://github.com/Pace-IAS/pronounce/releases/latest/download/ias-model-0.1.0.onnx">
+        Download model
+        <span class="dl-meta">v0.1.0 · ONNX · ~339&nbsp;MB</span>
+      </a>
+
+      <dl class="facts">
+        <dt>File</dt>
+        <dd><code>ias-model-0.1.0.onnx</code></dd>
+        <dt>Size</dt>
+        <dd>355,374,846 bytes (~339&nbsp;MB)</dd>
+        <dt>SHA-256</dt>
+        <dd><code class="hash">e88bbad6cd890c193ba42c63f708383b8b646e0e7382db8d4392efbfe8e2edb0</code></dd>
+      </dl>
+    </section>
+
+    <section class="verify" aria-labelledby="verify-heading">
+      <h2 id="verify-heading">Verify your download</h2>
+      <p>Confirm the file is intact before use by comparing its checksum to the SHA-256 above.</p>
+      <ul class="cmds">
+        <li><span class="os">Windows (PowerShell)</span><code>Get-FileHash ias-model-0.1.0.onnx -Algorithm SHA256</code></li>
+        <li><span class="os">macOS</span><code>shasum -a 256 ias-model-0.1.0.onnx</code></li>
+        <li><span class="os">Linux</span><code>sha256sum ias-model-0.1.0.onnx</code></li>
+      </ul>
+    </section>
+
+    <section class="usage" aria-labelledby="usage-heading">
+      <h2 id="usage-heading">Using the model</h2>
+      <p>
+        The model is consumed by the Pronounce app, which downloads it on first run.
+        A manual download is provided here for offline installation and integrity
+        verification.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>For Pace University's International Academic Support office. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
