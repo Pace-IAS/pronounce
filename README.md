@@ -1,12 +1,14 @@
 # pronounce
 
-Landing page and model distribution for **Pronounce** — the on-device pronunciation-practice app built for Pace University's International Academic Support (IAS) office.
+Public landing page for **Pronounce** — the on-device pronunciation-practice app built for Pace University's International Academic Support (IAS) office — and the host for the app's speech-model release asset.
 
 Published at **https://pace-ias.github.io/pronounce/** via GitHub Pages (`main` branch, root).
 
+> **Page status (2026-06-10):** the page is a **pilot placeholder** fronting the *app* ("installer coming soon"). It deliberately does **not** offer the raw model as a user download — the **app** fetches the model automatically on first run. The full app-download page (per-platform installer + change-log) lands once the first app release exists on `Pace-IAS/IAS`.
+
 ## What's here
 
-- `index.html` / `style.css` — the static download page (no build step, no dependencies).
+- `index.html` / `style.css` — the static landing page (no build step, no dependencies).
 - The speech model itself is **not** committed to this repository. At 339 MB it exceeds GitHub's file limits and cannot be served by GitHub Pages; it is published as a **GitHub Release asset** instead.
 
 ## Model
