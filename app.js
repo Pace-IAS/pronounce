@@ -1,5 +1,5 @@
 /**
- * app.js — Pace IAS Pronunciation Practice download page logic
+ * app.js — Pronounce download page logic
  *
  * Loadable as a browser ES module (<script type="module">) and by
  * Node's built-in test runner ("node --test").
@@ -360,7 +360,7 @@ function applyOsRegion(os, doc) {
 
   if (os !== "windows" && os !== "macos") {
     osRegion.innerHTML =
-      `<h1>Pace IAS Pronunciation Practice</h1>` +
+      `<h1>Pronounce</h1>` +
       `<p class="subtitle">English language practice for everyday life</p>` +
       `<p class="os-notice">` +
         `There is no download for your system. Installers are available for ` +
